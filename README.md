@@ -1,5 +1,17 @@
 # Home Twin Alarm Card
 
+![Home Twin Alarm Card preview](docs/images/preview.png)
+
+*Rendered from the card code with example data (no real Home Assistant). Left: tiles (disarmed / armed home), right: control popup.*
+
+<details><summary>More screenshots</summary>
+
+**Popup, history tab**
+
+![Home Twin Alarm Card – Popup, history tab](docs/images/history.png)
+
+</details>
+
 Lovelace cards for the **Alarm System** integration (`alarm_system_ha_integration`, domain `alarm_system`), designed for a hallway wall tablet:
 
 - **`custom:home-twin-alarm-card`** – tile: state large and coloured, countdown during exit delay. Tapping opens the control popup (Browser Mod, or a built-in window). During entry delay / when triggered a red full-screen overlay with countdown and PIN keypad appears.
